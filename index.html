@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>معرفی ملک</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <div id="agencyName" class="brand"></div>
+      <a id="headerCall" class="header-call" href="#">تماس</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-content">
+
+      <div class="hero-image-wrap">
+        <img id="heroImage" src="" alt="تصویر ملک">
+      </div>
+
+      <div class="hero-info">
+        <span class="eyebrow">فرصت خرید</span>
+
+        <h1 id="propertyTitle"></h1>
+
+        <p id="propertySubtitle"></p>
+
+        <div class="price" id="propertyPrice"></div>
+
+        <p class="address" id="propertyAddress"></p>
+
+        <a id="heroCall" href="#" class="btn btn-primary">
+          تماس با مشاور
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Property Facts -->
+  <section class="section">
+    <div class="container">
+
+      <h2>مشخصات ملک</h2>
+
+      <div id="factsGrid" class="facts-grid"></div>
+
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section section-alt">
+    <div class="container">
+
+      <h2>تصاویر ملک</h2>
+
+      <div id="galleryGrid" class="gallery-grid"></div>
+
+    </div>
+  </section>
+
+  <!-- Video -->
+  <section id="videoSection" class="section">
+    <div class="container">
+
+      <h2>بازدید ویدیویی</h2>
+
+      <div id="videoFrame" class="video-frame"></div>
+
+    </div>
+  </section>
+
+  <!-- Description -->
+  <section class="section section-alt">
+    <div class="container">
+
+      <h2>درباره ملک</h2>
+
+      <p id="propertyDescription" class="description"></p>
+
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section">
+    <div class="container">
+
+      <h2>امکانات و ویژگی‌ها</h2>
+
+      <ul id="featuresList" class="features-list"></ul>
+
+    </div>
+  </section>
+
+  <!-- Map -->
+  <section id="mapWrap" class="section section-alt">
+    <div class="container">
+
+
+<section id="mapWrap" class="section section-alt">
+  <div class="container">
+
+    <h2>موقعیت ملک</h2>
+
+    <div class="map-container">
+      <iframe
+        id="propertyMap"
+        src=""
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <a id="mapLink"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn btn-secondary map-button">
+      مشاهده در Google Maps
+    </a>
+
+  </div>
+</section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+
+      <h2>برای اطلاعات بیشتر تماس بگیرید</h2>
+
+      <p id="agentName"></p>
+
+      <div class="contact-buttons">
+
+        <a id="contactCall" href="#" class="btn btn-primary">
+          تماس تلفنی
+        </a>
+
+        <a id="whatsappLink" target="_blank" rel="noopener" class="btn btn-whatsapp">
+          ارتباط در واتساپ
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p id="footerAgency"></p>
+      <p>معرفی اختصاصی ملک</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
